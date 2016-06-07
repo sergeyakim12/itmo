@@ -1,0 +1,14 @@
+
+body { 
+    
+   }
+   .text {
+    margin-top: 30px ; /* Отступы вокруг элемента */
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 40px;
+    background: #FBCEB1; /* Цвет фона */
+    padding: 10px; /* Поля вокруг текста */
+   
+   }
+  

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ford</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+    <!--МЕНЮ НАВИГАЦИИ**********************************************-->
+        <div class="navbar navbar-default navbar-static-top">
+          <div class="container">
+
+            <div class="navbar-header">                                                                          
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#responsive-menu"> 
+
+                <span class="icon-bar"></span>                                                                  
+                <span class="icon-bar"></span>                                                                 
+                <span class="icon-bar"></span>                                                                  
+              </button>                                                                                          
+
+              <a class="navbar-brand " href="main.html"> FORD</p></a>
+            </div>
+            
+            <div class=" collapse navbar-collapse" id="responsive-menu">
+                <u1 class="nav navbar-nav">
+
+
+                  <!-- МЕНЮ*************************************-->
+
+                  <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown"> История <b class="caret"></b></a>
+
+                  <ul class="dropdown-menu">
+                    <li><a href="his.html#gf">Генри Форд</a></li>                 
+                    <li><a href="his.html#evol">Эволюция массового производства</a></li>   
+                    <li><a href="his.html#rus">Ford В России</a></li>   
+                  </ul>                              
+                </li> 
+
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown"> Концепция развития компании<b class="caret"></b></a>
+                  <ul class="dropdown-menu">          
+                    <li><a href="kon.html#obz">Обзор</a></li>  
+                    <li><a href="kon.html#mob">Мобильность</a></li>  
+                    <li><a href="kon.html#bez">Безопасность</a></li>   
+                  </ul>                               
+                </li> 
+
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown"> Диллерская сеть<b class="caret"></b></a>
+                  
+                  <ul class="dropdown-menu">          
+                    <li><a href="dil.html#di">Официальные дилеры</a></li>   
+                  </ul>                               
+                </li> 
+
+                     </u1>  
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+      <div class="row">
+       <h1>FORD, Go Further</h1>
+      </div>
+</div>
+
+
+<!--carousel**************************************************-->
+        <div id="carousel" class="carousel slide">
+
+
+  <!--ИНДИКАТОРЫ СЛАЙДОВ***************************************-->
+  
+  <ol class="carousel-indicators">
+      <li class="active" data-target="#carousel" data-slide-to="0"></li>
+      <li  data-target="#carousel" data-slide-to="1"></li>
+      <li  data-target="#carousel" data-slide-to="2"></li>
+      
+  </ol>
+
+  <!--СЛАЙДЫ***************************************************-->
+<div class="carousel-inner">
+    <div class="item active">
+
+      <a href="his.html"><img src="fot/1.jpg"  alt="">
+      </a>
+      <div class="carousel-caption">
+          <h2>История</h2>
+            <p>В 1908 году Генри Форд воплотил в жизнь свою мечту,</p>
+            <p>выпустив модель «T»</p>
+      </div>
+    </div>
+
+
+  <div class="item">
+     <a href="kon.html"><img src="fot/2.jpg"  alt="">
+      </a>
+      <div class="carousel-caption">
+          <h3>Концепция развития компании</h3>
+            <p>Мы создали нашу «Концепцию устойчивого развития».</p>
+      </div>
+  </div>
+
+  <div class="item">
+     <a href="dil.html"><img src="fot/3.jpg"  alt="">
+      </a>
+      <div class="carousel-caption">
+          <h3>Диллерская сеть</h3>   
+      </div>
+  </div>
+
+<!--СТРЕЛКИ************************************************************-->
+<a href="#carousel" class="left carousel-control" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left "></span>
+</a>
+
+<a href="#carousel"  class="right carousel-control"  data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right "></span>
+</a>
+
+</div>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.js"></script>
+  </body>
+</html>
